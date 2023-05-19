@@ -10,7 +10,7 @@ app.use(express.json());
 
 
 require("dotenv").config();
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 
 
 
@@ -37,11 +37,30 @@ async function run() {
 
 
 
+    // to get all toys data
     app.get('/toys', async(req, res) => {
         const result = await dollCollection.find().toArray();
         res.send(result);
     })
-    
+
+
+    // to get single toy data by id
+    app.get('/toy/:id', async(req, res) => {
+        const id = req.params.id;
+        const query = {_id: new ObjectId(id)};
+        const result = await dollCollection.findOne(query);
+        res.send(result);
+    })
+
+
+    //  to get all toys data of a specific category
+    app.get('/toys/:category', async(req, res) => {
+        const category = req.params.category;
+        const query = {category: category}
+        const result = await dollCollection.find(query).toArray();
+        res.send(result);
+    })
+
 
     
     // Send a ping to confirm a successful connection
