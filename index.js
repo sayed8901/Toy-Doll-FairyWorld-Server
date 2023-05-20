@@ -30,7 +30,7 @@ const client = new MongoClient(uri, {
 async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
-    await client.connect();
+    // await client.connect();
 
 
     const dollCollection = client.db('fairyToyDoll').collection('dolls');
@@ -59,6 +59,15 @@ async function run() {
         const query = {category: desiredCategory}
         const result = await dollCollection.find(query).toArray();
         res.send(result);
+    })
+
+
+    // to get al the toys data of a particular user based on email
+    app.get('/myToys/:email', async(req, res) => {
+      // console.log(req.params.email);
+      const query = {sellerEmail: req.params.email}
+      const result = await dollCollection.find(query).toArray();
+      res.send(result);
     })
 
 
