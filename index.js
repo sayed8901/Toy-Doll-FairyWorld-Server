@@ -71,6 +71,7 @@ async function run() {
     })
 
 
+
     // creating index for searching purpose
     const indexKeys = {toyName: 1, category: 1};
     const indexOptions = {name: 'searchByToyNameOrCategory'};
@@ -91,13 +92,22 @@ async function run() {
 
 
 
-
     // to create & post a new toy data to database
     app.post('/toys', async(req, res) => {
       const newToyData = req.body;
       const result = await dollCollection.insertOne(newToyData);
       res.send(result);
     })
+
+
+
+    // to update a toy data
+    
+
+
+
+
+
 
     
     // Send a ping to confirm a successful connection
