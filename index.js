@@ -39,7 +39,7 @@ async function run() {
 
     // to get all toys data
     app.get('/toys', async(req, res) => {
-        const result = await dollCollection.find().toArray();
+        const result = await dollCollection.find().limit(20).toArray();
         res.send(result);
     })
 
@@ -55,10 +55,29 @@ async function run() {
 
     //  to get all toys data of a specific category
     app.get('/toys/:category', async(req, res) => {
-        const category = req.params.category;
-        const query = {category: category}
+        const desiredCategory = req.params.category;
+        const query = {category: desiredCategory}
         const result = await dollCollection.find(query).toArray();
         res.send(result);
+    })
+
+
+    // creating index for searching purpose
+    const indexKeys = {toyName: 1, category: 1};
+    const indexOptions = {name: 'searchByToyNameOrCategory'};
+    const newIndex = await dollCollection.createIndex(indexKeys, indexOptions);
+
+    // to get toys data based on partial name search
+    app.get('/toySearchByToyNameOrCategory/:inputText', async(req, res) => {
+      const searchText = req.params.inputText;
+      const query = {
+        $or: [
+          { toyName: { $regex: searchText, $options: 'i' } },
+          { category: { $regex: searchText, $options: 'i' } },
+        ]
+      }
+      const result = await dollCollection.find(query).toArray();
+      res.send(result);
     })
 
 
