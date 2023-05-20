@@ -39,7 +39,7 @@ async function run() {
 
     // to get all toys data
     app.get('/toys', async(req, res) => {
-        const result = await dollCollection.find().limit(20).toArray();
+        const result = await dollCollection.find().sort({createdAt: -1}).limit(20).toArray();
         res.send(result);
     })
 
@@ -66,7 +66,7 @@ async function run() {
     app.get('/myToys/:email', async(req, res) => {
       // console.log(req.params.email);
       const query = {sellerEmail: req.params.email}
-      const result = await dollCollection.find(query).toArray();
+      const result = await dollCollection.find(query).sort({createdAt: -1}).toArray();
       res.send(result);
     })
 
@@ -95,6 +95,7 @@ async function run() {
     // to create & post a new toy data to database
     app.post('/toys', async(req, res) => {
       const newToyData = req.body;
+      newToyData.createdAt = new Date();
       const result = await dollCollection.insertOne(newToyData);
       res.send(result);
     })
@@ -123,7 +124,13 @@ async function run() {
     
 
 
-
+    // to delete a single toy data
+    app.delete('/toys/:id', async(req, res) => {
+      const id = req.params.id;
+      const query = {_id: new ObjectId(id)};
+      const result = await dollCollection.deleteOne(query);
+      res.send(result);
+    })
 
 
 
