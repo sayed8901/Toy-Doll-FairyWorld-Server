@@ -1,0 +1,178 @@
+[
+  {
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnj8C4SBJPrOVcYDjfDnfXXgvqoO1U0ue3vQ&usqp=CAU",
+    "toyName": "Lovely Baby Doll",
+    "price": 500,
+    "rating": 4.5,
+    "availableQuantity": 10,
+    "sellerName": "Toyland Emporium",
+    "sellerEmail": "sales@toylandemporium.com",
+    "description": "This adorable doll is perfect for imaginative play.",
+    "category": "Baby Dolls"
+  },
+  {
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnqu-YXs5UOVu8aqB68cdJRysHiL098VNb4Q&usqp=CAU",
+    "toyName": "Fashionista Doll Set",
+    "price": 400,
+    "rating": 4.2,
+    "availableQuantity": 8,
+    "sellerName": "Kids' World",
+    "sellerEmail": "info@kidsworld.com",
+    "description": "Let the fashion fun begin with this charming doll set.",
+    "category": "Baby Dolls"
+  },
+  {
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK4ytplh4XvkHNDvMVSxx04VZ3JXaogwjgLg&usqp=CAU",
+    "toyName": "Magical Fairy Doll",
+    "price": 300,
+    "rating": 4.0,
+    "availableQuantity": 15,
+    "sellerName": "Enchanted Toys",
+    "sellerEmail": "sales@enchantedtoys.com",
+    "description": "This fairy doll comes with sparkly wings and a wand for endless fun.",
+    "category": "Fashion Dolls"
+  },
+  {
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa17wcoyJFzaJ2f2yX3oLwzYX_DDv3qhPgaw&usqp=CAU",
+    "toyName": "Glamorous Princess Doll",
+    "price": 350,
+    "rating": 4.8,
+    "availableQuantity": 20,
+    "sellerName": "Princess Paradise",
+    "sellerEmail": "support@princessparadise.com",
+    "description": "Let your child's imagination soar with this glamorous princess doll.",
+    "category": "Fashion Dolls"
+  },
+  {
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyfKogUaSS0jOGhVvqU12gHRtBXH_UXp97pw&usqp=CAU",
+    "toyName": "Mermaid Fantasy Doll",
+    "price": 450,
+    "rating": 4.6,
+    "availableQuantity": 12,
+    "sellerName": "Ocean Adventures",
+    "sellerEmail": "info@oceanadventures.com",
+    "description": "Immerse yourself in underwater adventures with this beautiful mermaid doll.",
+    "category": "Fantasy Dolls"
+  },
+  {
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREr5zBhIUi7Obvbnf_cVnurkGxXWUdCjkflA&usqp=CAU",
+    "toyName": "Magic Unicorn Doll",
+    "price": 350,
+    "rating": 4.3,
+    "availableQuantity": 18,
+    "sellerName": "Enchanting Toys",
+    "sellerEmail": "sales@enchantingtoys.com",
+    "description": "Enter a world of magic and fantasy with this enchanting unicorn doll.",
+    "category": "Fantasy Dolls"
+  },
+  {
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQH2tKPpEAH6opy3bseQtdRq-V35Ibm2elwA&usqp=CAU",
+    "toyName": "Interactive Talking Doll",
+    "price": 600,
+    "rating": 3.9,
+    "availableQuantity": 7,
+    "sellerName": "TalkTime Toys",
+    "sellerEmail": "info@talktimetoys.com",
+    "description": "Have fun conversations with this interactive doll toy.",
+    "category": "Interactive Dolls"
+  },
+  {
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmebCljl73PdgCJ2Xsiz4qR5mYI_jYiVJ1MA&usqp=CAU",
+    "toyName": "Creative Play Doll Set",
+    "price": 550,
+    "rating": 4.7,
+    "availableQuantity": 9,
+    "sellerName": "Imagination Station",
+    "sellerEmail": "info@imaginationstation.com",
+    "description": "Unleash your child's creativity with this versatile doll playset.",
+    "category": "Interactive Dolls"
+  },
+  {
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa7T8ZuQVy_qDy7ZeHIZkii8xID0gp-_EKcQ&usqp=CAU",
+    "toyName": "Cuddly Baby Doll",
+    "price": 550,
+    "rating": 4.4,
+    "availableQuantity": 6,
+    "sellerName": "Joyful Toys",
+    "sellerEmail": "info@joyfultoys.com",
+    "description": "This cuddly baby doll is perfect for hugging and nurturing play.",
+    "category": "Baby Dolls"
+  },
+  {
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx3IeXtmaJlMEWxlzPr2lxh5FEo201pZZVNw&usqp=CAU",
+    "toyName": "Magical Fairy Doll",
+    "price": 650,
+    "rating": 4.1,
+    "availableQuantity": 11,
+    "sellerName": "Fashion Paradise",
+    "sellerEmail": "sales@fashionparadise.com",
+    "description": "Dress up your dolls in style with this fashionable doll wardrobe set.",
+    "category": "Baby Dolls"
+  },
+  {
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTbXC_L56ACO-bO7Qq_TK8lOUyO2bxScnC6w&usqp=CAU",
+    "toyName": "Sweet Fairy Princess",
+    "price": 450,
+    "rating": 4.3,
+    "availableQuantity": 8,
+    "sellerName": "Enchanted Wonders",
+    "sellerEmail": "support@enchantedwonders.com",
+    "description": "Let your child's dreams come true with this sweet fairy princess doll.",
+    "category": "Fashion Dolls"
+  },
+  {
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSX7_vh3J_ji8tiu5RZv8eXLNytVo7Ce3ZwA&usqp=CAU",
+    "toyName": "Royal Ballerina Doll",
+    "price": 550,
+    "rating": 4.6,
+    "availableQuantity": 13,
+    "sellerName": "Dance Delights",
+    "sellerEmail": "sales@dancedelights.com",
+    "description": "This ballerina doll is ready to twirl and dance her way into your heart.",
+    "category": "Fashion Dolls"
+  },
+  {
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9nXmf9rvnp6PHfovj6r6RoHsXCdrsx-U96w&usqp=CAU",
+    "toyName": "Mermaid Princess Doll",
+    "price": 500,
+    "rating": 4.0,
+    "availableQuantity": 9,
+    "sellerName": "Magical Seashells",
+    "sellerEmail": "info@magicalseashells.com",
+    "description": "Dive into enchanting underwater adventures with this mermaid princess doll.",
+    "category": "Fantasy Dolls"
+  },
+  {
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEzExgKPTD7T4IzpQxHlqiDUShPWIxP-Rgog&usqp=CAU",
+    "toyName": "Enchanted Forest Fairy",
+    "price": 400,
+    "rating": 4.8,
+    "availableQuantity": 15,
+    "sellerName": "Fairyland Treasures",
+    "sellerEmail": "sales@fairylandtreasures.com",
+    "description": "Let your child's imagination soar with this magical enchanted forest fairy doll.",
+    "category": "Fantasy Dolls"
+  },
+  {
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzp9ZmqGFvFNzUYK-JIPczCu3dhRsIcIev4w&usqp=CAU",
+    "toyName": "Talking Baby Doll",
+    "price": 600,
+    "rating": 3.7,
+    "availableQuantity": 10,
+    "sellerName": "Chatterbox Toys",
+    "sellerEmail": "info@chatterboxtoys.com",
+    "description": "Engage in interactive conversations with this adorable talking baby doll.",
+    "category": "Interactive Dolls"
+  },
+  {
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuEKqkEvWguNVtkG-uRpin5nsNm5YAVWJJGoNDHFmjwxr6W5tK5cv_atZSIt8Rt8RpNq0&usqp=CAU",
+    "toyName": "Creative Design Doll",
+    "price": 550,
+    "rating": 4.2,
+    "availableQuantity": 12,
+    "sellerName": "Imagination Junction",
+    "sellerEmail": "support@imaginationjunction.com",
+    "description": "Spark your child's creativity with this doll that allows custom design and styling.",
+    "category": "Interactive Dolls"
+  }
+]
